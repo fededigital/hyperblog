@@ -8,6 +8,15 @@ body
     padding: 0;
 }
 
+#cabecera
+{
+    background: #33a;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: .5em;
+}
+
 #container
 {
     width: 70%;
@@ -15,11 +24,35 @@ body
     text-align: center;
     border: 1px solid black;
     margin: 50px auto;
+    border-radius: .5em;
+    box-shadow: 0px 0px 7px 10px rgba(0,0,0,0.40);
+}
+
+#cabecera
+{
+text-align: left;
+font-size: 2em;
+}
+
+#tagline
+{
+font-weight: lighter;
+font-size: .5em;
 }
 
 container h1
 {
     font-size: 20px;
+}
+
+#post
+{
+   padding: 1em;
+}
+
+#post h1
+{
+    text-shadow: 2px 2px 3px #33a;
 }
 
 #post p
