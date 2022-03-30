@@ -15,6 +15,8 @@ body
     font-weight: bold;
     margin: 0;
     padding: .5em;
+    text-align: left;
+    font-size: 2em;
 }
 
 #container
@@ -28,22 +30,24 @@ body
     box-shadow: 0px 0px 7px 10px rgba(0,0,0,0.40);
 }
 
+#container h1
+{
+    font-size: 2em;
+}
+
 #cabecera
 {
-text-align: left;
-font-size: 2em;
+    font-size: 2.5em;
 }
 
 #tagline
 {
+color: white;
 font-weight: lighter;
 font-size: .5em;
 }
 
-container h1
-{
-    font-size: 20px;
-}
+
 
 #post
 {
